@@ -69,7 +69,7 @@ local defaultRotInfluence = V3(1, 1, 1)
 
 
 CameraShaker.CameraShakeInstance = CameraShakeInstance
-CameraShaker.Presets = loadstring(game:HttpGet("https://raw.githubusercontent.com/Z4ewd/camshake/refs/heads/main/CameraShakeInstance.lua"))()
+CameraShaker.Presets = loadstring(game:HttpGet("https://raw.githubusercontent.com/Z4ewd/camshake/refs/heads/main/CameraShakePresets.lua"))()
 
 
 function CameraShaker.new(renderPriority, callback)
